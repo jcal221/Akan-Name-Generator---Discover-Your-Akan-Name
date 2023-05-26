@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Akan Name Generator</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Akan Name Generator</h1>
+    <form id="nameForm">
+      <div class="form-group">
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+          <option value="">Select gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit">Generate Akan Name</button>
+      </div>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+  
+  <script src="js/scripts.js"></script>
+</body>
+</html>
